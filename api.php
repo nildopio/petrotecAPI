@@ -13,7 +13,7 @@ try{
     $headers = [
             'Cache-Control' => 'no-cache',
             'Content-Type' => 'application/json',
-            'Authorization' => 'Bearer YwXxd4G3LDF56gVQx8SBpsF6E9I32h7InGjCAyIj',
+            'Authorization' => 'Bearer [TOKEN]',
             'Accept-' => '*/*',
             'Accept-Encoding' => 'gzip, deflate, br',
             'Connection' => 'keep-alive',
