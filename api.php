@@ -22,7 +22,7 @@ try{
 
     $body_sent = '{"posto":21,"nome_posto":"PV TESTE","serie":"A","numero_doc":2021452,"numero_venda":2078945,"data":"'.date("Y-m-d H:i:s").'","codigo_produto":1,"produto":"gasolina", "quantidade":45.2,"preco_unitario":145.7,"valor":12152.1,"nif":"123456789","nome":"Cliente Dois","morada":"Casa palha","mop":"123"}';
 
-    $request = new Request('POST', 'https://api.enacol.cv/api/v1/transaction', $headers, $body_sent);
+    $request = new Request('POST', '[URL]', $headers, $body_sent);
 
     $response = $client->send($request, ['timeout' => 2]);
 
